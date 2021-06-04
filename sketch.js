@@ -10,6 +10,7 @@ var bg ;
 
 function preload() {
     // create getBackgroundImg( ) here
+    getBackgroundImg()
 }
 
 function setup(){
@@ -17,7 +18,7 @@ function setup(){
     engine = Engine.create();
     world = engine.world;
 
-    getBackgroundImg()
+    
 }
 
 function draw(){
